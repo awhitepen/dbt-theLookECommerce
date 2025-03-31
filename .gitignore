@@ -3,3 +3,18 @@
 target/
 dbt_packages/
 logs/
+
+# Ignore service account keys and other secrets
+*.json
+
+# dbt artifact folders
+dbt_packages/
+target/
+dbt_modules/    
+
+# Python virtual environment
+venv/
+
+# dbt user-specific config
+.dbt/user.yml
+
