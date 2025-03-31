@@ -10,7 +10,7 @@ default:
       threads: 4
       timeout_seconds: 300
       location: US
-      keyfile: "C:\\repo\\dbt-theLookECommerce\\thelook-ecommerce-dbt-455408-d274588b2b06.json"
+      keyfile: # remove
 
 
     prod:
@@ -21,6 +21,6 @@ default:
       threads: 4
       timeout_seconds: 300
       location: US
-      keyfile: "C:\\repo\\dbt-theLookECommerce\\thelook-ecommerce-dbt-455408-d274588b2b06.json"
+      keyfile: # remove
 
 
